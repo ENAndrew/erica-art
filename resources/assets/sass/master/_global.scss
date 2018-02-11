@@ -1,0 +1,21 @@
+html, body {
+	color: $textColor;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+strong {
+	font-weight: 700;
+}
+
+.text-caps {
+	text-transform: uppercase;
+}
+
+.vertical-align {
+	display: flex;
+	align-items: center;
+}
