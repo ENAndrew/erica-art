@@ -7721,9 +7721,10 @@ button.close {
   }
 }
 
-html, body {
+html, body, #app {
   color: #666;
   margin: 0;
+  height: 100%;
 }
 
 a {
@@ -7745,4 +7746,10 @@ strong {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.welcome-wrapper {
+  height: 100%;
+  background: url(/img/layout/wall.jpg);
+  background-size: cover;
 }

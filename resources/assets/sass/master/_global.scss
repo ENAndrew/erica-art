@@ -1,6 +1,7 @@
-html, body {
+html, body, #app {
 	color: $textColor;
 	margin: 0;
+	height: 100%;
 }
 
 a {
