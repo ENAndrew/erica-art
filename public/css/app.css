@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica+SC);@charset "UTF-8";
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -7725,6 +7725,7 @@ html, body, #app {
   color: #666;
   margin: 0;
   height: 100%;
+  font-family: "IM Fell Double Pica SC", serif;
 }
 
 a {
@@ -7752,4 +7753,26 @@ strong {
   height: 100%;
   background: url(/img/layout/wall.jpg);
   background-size: cover;
+}
+
+.home-nav {
+  padding-top: 4.5em;
+  padding-bottom: 4.5em;
+  z-index: 100;
+  background-color: none;
+  text-align: center;
+}
+
+.home-nav .home-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.home-nav .home-links a {
+  font-size: 3em;
+  color: #666;
+  text-decoration: none;
 }
