@@ -1,6 +1,9 @@
 @include('partials.start')
-@include('partials.nav')
+	<div class="content-wrapper">
+		@include('partials.nav')
 
-    @yield('content')
-
+	    @yield('content')
+	    
+	    @include('partials.footer')
+	</div>
 @include('partials.end')

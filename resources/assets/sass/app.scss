@@ -1,13 +1,15 @@
 
 // Fonts
-@import "master/fonts";
-@import "master/variables";
-@import "master/lib";
-@import "master/global";
+@import 'master/fonts';
+@import 'master/variables';
+@import 'master/lib';
+@import 'master/global';
 
-@import "master/buttons";
-@import "master/mixins";
+@import 'master/buttons';
+@import 'master/mixins';
+@import 'master/forms';
 
-@import "views/welcome";
+@import 'views/welcome';
 
-@import "partials/home-nav";
+@import 'partials/nav';
+@import 'partials/footer';

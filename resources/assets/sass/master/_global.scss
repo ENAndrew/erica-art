@@ -22,3 +22,13 @@ strong {
 	display: flex;
 	align-items: center;
 }
+
+.content-wrapper {
+	height: 100%;
+	background-image: url(/img/layout/wall.jpg);
+	background-size: cover;
+}
+
+.vert-padding {
+	padding: 2em 0 2em 0;
+}
